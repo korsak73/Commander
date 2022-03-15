@@ -1,0 +1,29 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 54341,
+            "driver": "PostgreSQL",
+            "name": "postgresql@crmti",
+            "database": "crmti",
+            "username": "root",
+            "password": "root"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "mssql@CommanderAPI",
+            "database": "CommanderDB",
+            "username": "CommanderAPI",
+            "password": "Volha_2104_"
+        }
+    ]
+}
